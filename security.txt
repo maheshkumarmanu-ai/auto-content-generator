@@ -1,8 +1,1 @@
-# Our security policy
-Contact: mailto:security@yemcoders.com
-Encryption: https://yemcoders.com/pgp-key.txt
-Acknowledgments: https://yemcoders.com/security-hall-of-fame
-Preferred-Languages: en
-Canonical: https://yemcoders.com/.well-known/security.txt
-Policy: https://yemcoders.com/security-policy.html
-Hiring: https://yemcoders.com/careers
+
