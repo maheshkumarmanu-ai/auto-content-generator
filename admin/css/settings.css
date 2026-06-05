@@ -1,0 +1,92 @@
+
+
+    .api-settings-container {
+
+        display: grid;
+
+        grid-template-columns: repeat(3, 1fr);
+
+        gap: 20px;
+
+        background: #f9f9f9;
+
+        padding: 20px;
+
+        border-radius: 6px;
+
+    }
+
+    .api-provider {
+
+        background: #e0e0e0;
+
+        border: 1px solid #ccc;
+
+        padding: 15px;
+
+        border-radius: 4px;
+
+        transition: opacity 0.3s;
+
+    }
+
+    .api-provider.disabled {
+
+        opacity: 0.5;
+
+    }
+
+    .api-provider h3 {
+
+        margin-top: 0;
+
+    }
+
+    .api-provider input,
+
+    .api-provider select {
+
+        width: 100%;
+
+        margin-bottom: 10px;
+
+    }
+
+    .api-provider select {
+
+        width: 50%;
+
+    }
+
+    .checkbox-label {
+
+        display: flex;
+
+        align-items: center;
+
+        gap: 8px;
+
+        margin-bottom: 10px;
+
+        font-weight: 600;
+
+    }
+
+    .checkbox-label input[type="checkbox"] {
+
+        width: auto;
+
+        margin: 0;
+
+    }
+
+    @media (max-width: 768px) {
+
+        .api-settings-container {
+
+            grid-template-columns: 1fr;
+
+        }
+
+    }
+
